@@ -14,6 +14,7 @@ const orphanComponents = await fetch("https://herocoders.atlassian.net/rest/api/
             .then(({total}) => ({name, issues:total}))
             .catch(() => console.error(`Issues search for component ${name} error`));
     })))
-;
+    .catch(() => console.error("Obtaining issues for components error"));
+
 console.log("Components without lead:");
 console.table(orphanComponents);
