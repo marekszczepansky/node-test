@@ -1,1 +1,7 @@
-# node-test
+# Test task
+
+`npm test` - test `beginsWithCapitalLetter` function
+`npm start` - runs Jira component REST API query
+
+- [index.js](index.js) - capital letter test function `beginsWithCapitalLetter`
+- [components.js](components.js) - Jira REST API query

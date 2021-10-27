@@ -1,0 +1,19 @@
+{
+  "name": "es6-lib",
+  "version": "1.0.0",
+  "description": "es6 task",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node components.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "Marek Szczepański",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
